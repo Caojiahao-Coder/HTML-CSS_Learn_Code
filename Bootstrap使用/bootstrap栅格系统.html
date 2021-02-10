@@ -13,6 +13,7 @@
     <style>
         div[class^="col"] {
             border: 1px solid black;
+            padding: 0px;
         }
 
         .container .row:first-child {
@@ -25,7 +26,10 @@
     <div class="container">
         <div class="row">
             <!-- 适配 大、中、小、超级小四种屏幕 -->
-            <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">1</div>
+            <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                <div class="col-md-6">1</div>
+                <div class="col-md-6">2</div>
+            </div>
             <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">2</div>
             <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">3</div>
             <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">4</div>
