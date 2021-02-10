@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+
+    <style>
+        div {
+            height: 100px;
+            width: 100px;
+        }
+
+        /* 这里的属性选择器就是表示带有class属性的全部元素 */
+        div[class] {
+            background-color: pink;
+        }
+
+        /* 选出class以test开头的所有元素 */
+        div[class^=test] {
+            background-color: purple;
+        }
+
+        /* 选出class以test结尾的所有元素 */
+        div[class$=o1] {
+            background-color: yellow;
+        }
+
+
+        /* 选出class中包含当前名称的所有元素 */
+        div[class*=o1] {
+            background-color: yellow;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="demo1"></div>
+    <div></div>
+    <div></div>
+    <div class="test"></div>
+    <div class="test1"></div>
+</body>
+
+</html>

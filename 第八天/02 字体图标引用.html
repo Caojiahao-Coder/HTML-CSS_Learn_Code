@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        /* { 声明字体，引用字体 */
+        @font-face {
+            /* 设置一个名字 这里可以随便起名字 */
+            font-family: 'icomoon';
+            src: url('fonts/icomoon.eot');
+            src: url('fonts/icomoon.eot') format('embedded-opentype'),
+                url('fonts/icomoon.ttf') format('truetype'),
+                url('fonts/icomoon.woff') format('woff'),
+                url('fonts/icomoon.svg') format('svg');
+            /* 字体样式正常 */
+            font-style: normal;
+        }
+
+        span {
+            /* 这里的引用使用我们自己定义的字体名字 */
+            font-family: "icomoon";
+            font-size: 100px;
+            background-color: skyblue;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- 使用字体 -->
+    <span></span>
+</body>
+
+</html>

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        li:first-child {
+            color: palegreen;
+        }
+
+        li:last-child {
+            color: goldenrod;
+        }
+
+        /* 选择第三个 */
+        li:nth-child(3) {
+            background-color: goldenrod;
+        }
+
+        /* 选择全部的偶数 */
+        /* odd为基数 */
+        li:nth-child(even) {
+            color: white;
+            background-color: black;
+        }
+    </style>
+</head>
+
+<body>
+    <ul>
+        <li>小狗</li>
+        <li>小猫</li>
+        <li>阿狗</li>
+        <li>阿毛</li>
+        <li>老鼠</li>
+    </ul>
+</body>
+
+</html>

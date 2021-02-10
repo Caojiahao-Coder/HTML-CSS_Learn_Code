@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        a {
+            display: block;
+            width: 448px;
+            height: 252px;
+            margin: 100px;
+            position: relative;
+        }
+
+        .mask {
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.4) url(images/播放.png) no-repeat center;
+            position: absolute;
+            top: 0;
+            left: 0;
+            display: none;
+        }
+
+       a:hover .mask{
+           /* 将a里面的mask显示出来。s */
+           display: block;
+       }
+
+       
+    </style>
+</head>
+
+<body>
+
+    <a href="#">
+        <img src="images/视频介绍.jpg" height="252" width="448" alt="">
+        <div class="mask"></div>
+    </a>
+</body>
+
+</html>

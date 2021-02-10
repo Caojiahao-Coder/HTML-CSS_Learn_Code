@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        body {
+            background-color: pink;
+        }
+
+        div {
+            height: 300px;
+            width: 234px;
+            position: relative;
+            border-radius: 10px;
+            overflow: hidden;
+
+            text-align: center;
+        }
+
+        /* div:hover {
+            border: 10px solid red;
+            box-sizing: border-box;
+        } */
+
+        div:hover::after {
+            content: "";
+            position: absolute;
+            height: 100%;
+            width: 100%;
+            top: 0px;
+            left: 0px;
+            border: 10px solid rgba(255, 255, 255, 0.5);
+            box-sizing: border-box;
+
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <img src="images/mi_11.webp" alt=""> 
+    </div>
+</body>
+
+</html>

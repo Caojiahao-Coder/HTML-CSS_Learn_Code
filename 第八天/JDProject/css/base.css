@@ -1,0 +1,540 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    margin: 0px;
+    background-color: #f4f4f4;
+}
+
+.w {
+    width: 1190px;
+    margin: auto;
+}
+
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+.style-red {
+    color: #f10215!important;
+}
+
+/* 我们需要清空一下默认距离 */
+
+li {
+    list-style: none;
+}
+
+ul {
+    padding: 0px;
+    margin: 0px;
+}
+
+input, button {
+    padding: 0px;
+    border: 0px;
+}
+
+.clearfix:before, .clearfix:after {
+    content: "";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+
+@font-face {
+    font-family: 'icomoon';
+    src: url('../fonts/icomoon.eot?pcjr94');
+    src: url('../fonts/icomoon.eot?pcjr94#iefix') format('embedded-opentype'), url('../fonts/icomoon.ttf?pcjr94') format('truetype'), url('../fonts/icomoon.woff?pcjr94') format('woff'), url('../fonts/icomoon.svg?pcjr94#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.top {
+    background-color: #e94411;
+}
+
+.top a {
+    display: block;
+    height: 80px;
+    background: url(../images/top_bar_02.jpg) no-repeat;
+    position: relative;
+}
+
+.top a i {
+    width: 20px;
+    height: 20px;
+    background-color: pink;
+    position: absolute;
+    right: 0;
+    top: 5px;
+    font-family: "icomoon";
+    font-style: normal;
+    text-align: center;
+    line-height: 20px;
+    color: black;
+    font-size: 14px;
+    background: rgba(0, 0, 0, 0.2);
+}
+
+.shortcut {
+    background-color: #e3e4e5;
+    height: 30px;
+    line-height: 30px;
+    border-bottom: 1px solid #dddddd;
+    color: #9D9D9D;
+    font-size: 12px;
+}
+
+.shortcut a {
+    color: #9D9D9D;
+    font-size: 12px;
+    text-decoration: none;
+}
+
+.shortcut .fr li {
+    float: left;
+}
+
+.fl li {
+    height: 30px;
+}
+
+.fl li i {
+    font-family: "icomoon";
+    font-style: normal;
+    color: #f10215;
+    font-size: 14px;
+}
+
+.shortcut .fl li {
+    margin-left: 9px;
+}
+
+.shortcut a:hover {
+    color: #c81623;
+}
+
+.spacer {
+    width: 1px;
+    height: 10px;
+    background-color: #9D9D9D;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.drowdown {
+    padding-right: 15px;
+    position: relative;
+}
+
+.drowdown i {
+    font-family: "icomoon";
+    font-style: normal;
+    font-size: 14px;
+    position: absolute;
+    right: -3px;
+    top: -2px;
+}
+
+.header {
+    width: 100%;
+    height: 140px;
+    background-color: white;
+    border-bottom: 1px solid #dddddd;
+    /* position: absolute; */
+}
+
+.qrCode {
+    height: 605px;
+    width: 286px;
+    /* display: none; */
+    position: absolute;
+    top: 30px;
+    left: -216px;
+    border: 1px solid #dddddd;
+    border-bottom: 2px solid gray;
+    display: none;
+    z-index: 999999999999999;
+}
+
+.mobile_jd:hover .qrCode {
+    display: block;
+}
+
+.inner {
+    position: relative;
+    height: 140px;
+}
+
+.logo {
+    width: 190px;
+    height: 120px;
+    background-color: purple;
+    position: relative;
+    top: 0px;
+    left: 0px;
+}
+
+.logo h1 {
+    margin: 0px;
+}
+
+.logo a {
+    display: block;
+    width: 190px;
+    height: 120px;
+    background: url(../images/logo.jpg) no-repeat;
+    text-indent: -99999px;
+    overflow: hidden;
+}
+
+.search {
+    width: 550px;
+    height: 36px;
+    background-color: powderblue;
+    position: absolute;
+    top: 25px;
+    left: 260px;
+}
+
+.search input {
+    width: 488px;
+    height: 32px;
+    border: 0px;
+    background-color: white;
+    border: 2px solid #f10215;
+    padding: 0 0 0 5px;
+    outline: none;
+    color: #989898;
+    float: left;
+}
+
+.search button {
+    width: 53px;
+    height: 36px;
+    background-color: #f10215;
+    border: 2px solid #f10215;
+    float: left;
+    cursor: pointer;
+    outline: 0px;
+}
+
+.search button i {
+    font-family: "icomoon";
+    font-style: normal;
+    color: white;
+    font-size: 14px;
+}
+
+.search .camera {
+    width: 15px;
+    height: 13px;
+    font-family: "icomoon";
+    font-style: normal;
+    position: absolute;
+    top: 10px;
+    cursor: pointer;
+    left: 458px;
+    color: #dddddd;
+}
+
+.search .camera:hover {
+    color: #f10215;
+}
+
+.shoppingCar {
+    background-color: white;
+    border: 1px solid #dddddd;
+    width: 130px;
+    height: 34px;
+    position: absolute;
+    top: 25px;
+    left: 830px;
+    text-align: center;
+}
+
+.hotWords {
+    position: absolute;
+    top: 70px;
+    left: 260px;
+}
+
+.hotWords li a {
+    text-decoration: none;
+    color: #dddddd;
+    font-size: 14px;
+}
+
+.hotWords li a:hover {
+    color: #f10215;
+}
+
+.hotWords li .spacer {
+    margin-left: 4px;
+    margin-right: 4px;
+}
+
+.shoppingCar a {
+    display: block;
+    line-height: 34px;
+    font-size: 14px;
+    color: #f10215;
+    text-decoration: none;
+    padding-left: 28px;
+}
+
+.shoppingCar i {
+    font-family: "icomoon";
+    color: #f10215;
+    font-style: normal;
+    position: absolute;
+    top: 9px;
+    left: 20px;
+}
+
+.shoppingCar s {
+    position: absolute;
+    top: 1px;
+    left: 30px;
+    text-decoration: none;
+    background-color: #f10215;
+    height: 14px;
+    line-height: 14px;
+    font-size: 12px;
+    padding: 0 3px;
+    border-radius: 8px;
+    color: white
+}
+
+.nav {
+    position: absolute;
+    top: 113px;
+    left: 190px;
+}
+
+.nav li {
+    list-style: none;
+    float: left;
+}
+
+.nav a {
+    display: block;
+    color: gray;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    margin-left: 24px;
+}
+
+.nav a:hover {
+    color: #f10215;
+}
+
+.ad {
+    width: 190px;
+    height: 115px;
+    position: absolute;
+    top: 15px;
+    left: 1000px;
+}
+
+.ad a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: url(../images/广告.jpg) no-repeat;
+}
+
+.footer {
+    height: 615px;
+}
+
+.footer_service {
+    border-bottom: 1px solid #dedede;
+}
+
+.footer_service_inner {
+    padding: 30px 0;
+}
+
+.footer_service_inner li {
+    float: left;
+    width: 25%;
+    height: 42px;
+}
+
+.service_unit {
+    height: 42px;
+    width: 225px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.service_unit h5 {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.service_unit p {
+    font-size: 16px;
+    color: #454545;
+    font-weight: bold;
+    position: absolute;
+    top: 10px;
+    left: 45px;
+}
+
+.help {
+    height: 200px;
+    border-bottom: 1px solid #f10215;
+    padding-top: 24px;
+}
+
+.help dl {
+    float: left;
+    width: 198px;
+}
+
+.help dt {
+    font-size: 14px;
+    font-weight: bold;
+    color: #666;
+    height: 30px;
+}
+
+.help dd a {
+    font-size: 12px;
+    text-decoration: none;
+    color: #8e8e8e;
+}
+
+.help dd a:hover {
+    color: #f10215;
+    cursor: pointer;
+}
+
+.local_service {
+    width: 209px;
+}
+
+.local_service dt {
+    text-align: center;
+}
+
+.local_service p {
+    font-size: 12px;
+    color: #8e8e8e;
+}
+
+.local_service a {
+    float: right;
+}
+
+.links a {
+    text-decoration: none;
+    font-size: 12px;
+    color: #989898;
+}
+
+.copyright {
+    text-align: center;
+}
+
+.copyright span {
+    margin-right: 8px;
+    margin-left: 8px;
+    color: #989898;
+    font-size: 12px;
+}
+
+.links a:hover {
+    color: #f10215;
+}
+
+.record {
+    margin-top: 20px;
+}
+
+.record a {
+    font-size: 12px;
+    color: #9D9D9D;
+}
+
+.copyright span {
+    margin-right: 8px;
+    margin-left: 8px;
+    color: #989898;
+}
+
+.record a:hover {
+    color: #f10215;
+}
+
+.license {
+    margin-top: 12px;
+}
+
+.license a {
+    font-size: 12px;
+    color: #9D9D9D;
+}
+
+.license a:hover {
+    color: #f10215;
+}
+
+.copyright_license {
+    margin-top: 12px;
+}
+
+.copyright_license a {
+    font-size: 12px;
+    color: #9d9d9d;
+}
+
+.copyright_license a:hover {
+    color: #f10215;
+}
+
+.our_website {
+    margin-top: 12px;
+}
+
+.our_website a {
+    color: #9d9d9d;
+    font-size: 12px;
+}
+
+.our_website a:hover {
+    color: #f10215;
+}
+
+.last {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.last span {
+    display: inline-block;
+    width: 102px;
+    height: 32px;
+}

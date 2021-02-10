@@ -1,0 +1,299 @@
+@font-face {
+    font-family: 'icomoon';
+    src: url('../fonts/icomoon.eot?pcjr94');
+    src: url('../fonts/icomoon.eot?pcjr94#iefix') format('embedded-opentype'), url('../fonts/icomoon.ttf?pcjr94') format('truetype'), url('../fonts/icomoon.woff?pcjr94') format('woff'), url('../fonts/icomoon.svg?pcjr94#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.col04_w {
+    width: 160px;
+}
+
+.jd {
+    position: relative;
+    margin-top: 10px;
+}
+
+.jd-inner {
+    height: 470px;
+    z-index: 1;
+    position: relative;
+}
+
+.main_ad {
+    height: 770px;
+    width: 100%;
+    background: url(../images/ad.webp) no-repeat top center;
+    position: absolute;
+    display: block;
+    top: 252px;
+    left: 0px;
+}
+
+.recomendar {
+    margin-top: 20px;
+    background-color: white;
+    height: 260px;
+    position: relative;
+}
+
+/* 设置广告链接 */
+
+.main_ad a {
+    display: block;
+    height: 100%;
+}
+
+.columns01 {
+    width: 190px;
+    height: 462px;
+    background-color: white;
+    margin-right: 5px;
+    float: left;
+}
+
+.columns02 {
+    width: 590px;
+    height: 100%;
+    background-color: white;
+    margin-right: 5px;
+    margin-left: 5px;
+    float: left;
+}
+
+.columns03 {
+    width: 190px;
+    height: 100%;
+    margin-right: 5px;
+    margin-left: 5px;
+    float: left;
+}
+
+.columns04 {
+    width: 190px;
+    height: 100%;
+    background-color: white;
+    margin-left: 5px;
+    float: left;
+}
+
+.columns03 div {
+    position: relative;
+}
+
+.columns02 a {
+    display: block;
+    height: 100%;
+    position: absolute;
+}
+
+.bannerBtn {
+    font-family: "icomoon";
+    font-style: normal;
+    display: block;
+    background-color: rgba(0, 0, 0, 0.3);
+    width: 25px;
+    height: 35px;
+    z-index: 100;
+    text-align: center;
+    line-height: 35px;
+    color: white;
+    font-size: 20px;
+}
+
+.left {
+    float: left;
+    position: relative;
+    top: 222px;
+    left: 0px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.right {
+    float: right;
+    position: relative;
+    top: 222px;
+    left: 0px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+
+.bannerBtn:hover {
+    background-color: rgba(0, 0, 0, 0.6);
+    cursor: pointer;
+}
+
+.banner_point {
+    height: 10px;
+    position: relative;
+    top: 435px;
+    left: 0px;
+}
+
+.banner_point div {
+    width: 10px;
+    position: relative;
+    margin: 0px 2px;
+    float: left;
+    height: 10px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 8px;
+}
+
+.columns01 {
+    padding-top: 8px;
+}
+
+.columns01 li {
+    padding-left: 8px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+
+.columns01 a {
+    font-size: 14px;
+    color: #515151;
+}
+
+.columns01 span {
+    font-size: 12px;
+    color: #515151;
+}
+
+.columns01 li:hover {
+    background-color: #999999;
+}
+
+.columns01 a:hover {
+    color: #f10215;
+}
+
+.columns04 {
+    background-color: white;
+}
+
+.user_logo {
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    border: 2px solid white;
+}
+
+.user_login a {
+    font-size: 12px;
+    color: #515151;
+}
+
+.user_login {
+    display: block;
+    line-height: 20px;
+}
+
+.user_login a:hover {
+    color: #f10215;
+}
+
+.btn_new_account {
+    background-color: #f10215;
+    color: white;
+    font-size: 12px;
+    padding: 6px 12px;
+    border-radius: 16px;
+}
+
+.btn_vip_plus {
+    background-color: #363634;
+    color: #c3b87e;
+    font-size: 12px;
+    padding: 6px 12px;
+    border-radius: 16px;
+}
+
+.btn_new_account:hover {
+    background-color: #cd1d14;
+    cursor: pointer;
+}
+
+.btn_vip_plus:hover {
+    background-color: #cd1d14;
+    cursor: pointer;
+}
+
+.news_more {
+    display: block;
+    color: #9d9d9d;
+    font-size: 12px;
+    font-family: "icomoon";
+    font-style: normal;
+    float: right;
+    text-align: center;
+    line-height: 22.4px;
+}
+
+.news {
+    padding-top: 15px;
+    margin: 0 auto;
+}
+
+.news_more:hover {
+    color: #f10215;
+}
+
+.news_items {
+    padding-top: 12px;
+    height: 105px;
+    border-bottom: 1px solid #eeeeee;
+}
+
+.news_items li {
+    height: 21px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
+.news_items .tag {
+    font-size: 12px;
+    float: left;
+    color: #f10215;
+    background-color: #fdeeed;
+    padding: 2px 4px;
+}
+
+.news_items a {
+    font-size: 12px;
+    color: #9d9d9d;
+    float: right;
+    display: block;
+    width: 120px;
+    white-space: nowrap;
+    /* 将超出的部分隐藏起来 */
+    overflow: hidden;
+    line-height: 21px;
+    text-align: center;
+    /* 溢出的文字使用省略号替代 */
+    text-overflow: ellipsis;
+}
+
+.news_items a:hover {
+    color: #f10215;
+}
+
+.columns04 td {
+    width: 50px;
+}
+
+.columns04 td a {
+    display: block;
+    font-size: 10px;
+    color: #9d9d9d;
+}
+
+.columns04 td a:hover {
+  color: #f10215;
+}
+
+.columns04 td div {
+    text-align: center;
+}
