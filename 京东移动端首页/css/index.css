@@ -139,3 +139,9 @@ body {
     line-height: 44px;
     color: white;
 }
+
+/* 主体部分开始 */
+
+.mainContent img {
+    width: 100%;
+}
